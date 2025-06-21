@@ -24,11 +24,7 @@ public class second_highest_number_method2
         {
             if(array[i] == n)
             {
-                for(int j=i;j<array.length-1;j++)
-                {
-                    array[j] = array[j+1];
-                }
-                array[array.length-1] = Integer.MIN_VALUE;
+                array[i] = Integer.MIN_VALUE;
                 break;
             }
         }
