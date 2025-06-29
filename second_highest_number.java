@@ -64,16 +64,11 @@ class second_highest_number
             array[i] = sc.nextInt();
         }
 
-        //method-1
-        // sortArray(array);
-        // System.out.println("2nd highest number is : " + array[1]);
         
-        int firstMax = maxInArray(array);
-
-        removeElement(array,firstMax);
-
-        System.out.println("Second maximum number is : " + maxInArray(array));
-
+        sortArray(array);
+        System.out.println("2nd highest number is : " + array[1]);
+        
+        
 
     }
 }
