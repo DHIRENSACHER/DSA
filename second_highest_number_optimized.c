@@ -17,7 +17,7 @@ void sortArray(int array[],int n)
     }
 }
 
-void main()
+int main()
 {
     int n;
     scanf("%d", &n);
@@ -78,4 +78,5 @@ void main()
     printf("Second maximum number is : %d\n",secondMax);
 
 
+    return 0;
 }
