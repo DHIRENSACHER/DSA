@@ -72,4 +72,3 @@ class second_highest_number
 
     }
 }
-//comment
