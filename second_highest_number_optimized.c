@@ -66,6 +66,7 @@ int main()
     {
         if(array[i] > firstMax)
         {
+            secondMax = firstMax;
             firstMax = array[i];
         }
 
